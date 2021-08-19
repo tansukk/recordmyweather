@@ -71,7 +71,7 @@ def update(city):
 row_number = 0
 go_on_var = 1
 while go_on_var ==1:
-    time.sleep(300)
+    time.sleep(1800)
     time_log = time.time()
     #print(time_log)
     timestamp = datetime.datetime.fromtimestamp(time_log)
