@@ -17,10 +17,10 @@ cities_list = ["BRUSSELS, BE", "NEW YORK, US", "CALIFORNIA, US", "MILAN, IT", "R
 "BANGKOK, TH", "ANKARA, TR", "ISTANBUL, TR"]
 
 mydb = mysql.connector.connect(
-        user="sql11430528",
-        password="GYcqTS9u5u",
+        user="sql11431944", 
+        password="Jc3Su6QgWx",
         host="sql11.freesqldatabase.com",
-        database="sql11430528"
+        database="sql11431944"
     )
 
 
