@@ -88,7 +88,7 @@ while go_on_var ==1:
         mydb.commit()
         #print(mycursor.rowcount, "record inserted.", city_name, row_id)
         
-    time.sleep(5)
+    time.sleep(1800)
 
 #--------------------------------------------------------------
 #CLOSING THE CURSORS AND DATABASE CONNECTION
