@@ -21,6 +21,7 @@ mydb = mysql.connector.connect(
         password="Jc3Su6QgWx",
         host="sql11.freesqldatabase.com",
         database="sql11431944"
+        
     )
 
 
@@ -71,9 +72,9 @@ def update(city):
 row_number = 0
 go_on_var = 1
 while go_on_var ==1:
-    time.sleep(1800)
+    
     time_log = time.time()
-    #print(time_log)
+    print(time_log)
     timestamp = datetime.datetime.fromtimestamp(time_log)
     #print(timestamp.strftime('%Y-%m-%d %H:%M:%S'))
     for city in cities_list:
@@ -86,7 +87,8 @@ while go_on_var ==1:
         mycursor.execute(sql, val)
         mydb.commit()
         #print(mycursor.rowcount, "record inserted.", city_name, row_id)
-
+        
+    time.sleep(5)
 
 #--------------------------------------------------------------
 #CLOSING THE CURSORS AND DATABASE CONNECTION
